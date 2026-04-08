@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complaint</title>
+   <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+<div class="complaint">
+<div class="container">
+        <h2>Emergency Report form</h2>
+       <form onsubmit="submitComplaint(event)">
+            <input type="text" id="name" placeholder="Your name" required/>
+           
+            <select required id="type">
+                <option value="">Select emergency type</option>
+                <option>Medical emerency</option>
+                  <option>Fire incident</option>
+                    <option>Suspicious activity</option>
+                      <option>Harrassment/Bullying</option>
+                        <option>Security threat</option>
+            </select>
+            <textarea id="issue" placeholder="Describe the emergency" required></textarea>
+            <input type="tel" id="contact" placeholder="Your contact number" required/>
+             <button type="submit">Submit</button>
+     </form>
+     </div>
+     </div>
+
+<script type="module" src="JS/complaint.js"></script>
+</body>
+</html>

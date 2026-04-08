@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+   <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+          <h2>Admin Panel</h2>
+          <a href="#">Dashboard</a>
+           <a href="#">Manage users</a>
+            <a href="#">Emergency alerts</a>
+             <a href="#">Report</a>
+              <a href="#">Message</a>
+               <a href="#">Settings</a>
+              <a href="#" onclick="logout">Logout</a>
+        </div>
+        <div class="main">
+          <div class="header">Campus Safety Admin Dashboard</div>
+          <div class="cards">
+            <div class="card">
+              <h3>Total user</h3>
+              <p id="usercount">120</p>
+            </div>
+            <div class="card">
+              <h3>Active alerts</h3>
+              <p id="alertscount">3</p>
+            </div>
+            <div class="card">
+              <h3>Report filled</h3>
+              <P id="reportscount">45</P>
+            </div>
+            <div class="card">
+              <h3>pending messages</h3>
+              <p id="messagecount">8</p>
+            </div>
+          </div>
+          <br><br>
+          <button class="btn" onclick="sendemergencyalert()">Send notification </button>
+         </div>
+
+<script type="module" src="JS/admin.js"></script>
+
+</body>
+</html>
