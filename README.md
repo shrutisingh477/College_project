@@ -15,11 +15,11 @@ A web-based Campus Safety System designed to improve student security by providi
 ## 🛠️ Technologies Used
 
 ### Frontend
-*React.js
-*HTML5
-*CSS3
-*JavaScript
+🌐 HTML5  
+🎨 CSS3  
+📜 JavaScript  
+
 ### Other Tools
-*Git
-*GitHub
-*VS Code
+.Git
+.GitHub
+.VS Code
